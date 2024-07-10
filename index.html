@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>독일여행 가이드 - 10617 최강</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand {
+      font-size: 24px; /* 폰트 사이즈 조정 */
+      font-weight: bold; /* 폰트 굵기 조정 */
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .bg-light {
+      background-color: #f8f9fa !important;
+    }
+    .bg-primary {
+      background-color: #007bff !important;
+      color: white;
+    }
+    .bg-secondary {
+      background-color: #6c757d !important;
+      color: white;
+    }
+    .bg-success {
+      background-color: #28a745 !important;
+      color: white;
+    }
+    .bg-info {
+      background-color: #17a2b8 !important;
+      color: white;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    .carousel-inner img,
+    .attraction-item img {
+      width: 100%;
+      height: auto;
+    }
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+    .attraction-item {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .btn-details {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- 내비게이션 바 - 항목을 변경하거나 추가할 수 있습니다 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">독일 여행 가이드 - 10617 최강</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#overview">개요</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#history">역사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions">관광지</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">여행 팁</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 개요 섹션 -->
+  <section id="overview" class="section bg-primary">
+    <div class="container">
+      <h2 class="text-center">개요</h2>
+      <p>독일은 중부유럽과 서부유럽에 위치한 연방 공화국으로 북쪽은 평지이고 남쪽은 알프스산맥의 영향으로 고도가 높아지는 특징을 가졌습니다. 독일은 뮌헨의 옥토버페스트 축제와 베를린에 있는 브란덴부르크 문을 가진 아름다운 나라입니다.</p>
+      <!-- 이미지 슬라이드 - 이미지를 변경하려면 src 속성 값을 수정하세요 -->
+      <div id="overviewCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/germany flag.jpg" class="d-block w-100" alt="독일 개요 1">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/mackju.jpg" class="d-block w-100" alt="독일 개요 2">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/san.jpg" class="d-block w-100" alt="독일 개요 3">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/door.jpg" class="d-block w-100" alt="독일 개요 4">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/nachie.jpg" class="d-block w-100" alt="독일 개요 5">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#overviewCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">이전</span>
+        </a>
+        <a class="carousel-control-next" href="#overviewCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">다음</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 역사 섹션 -->
+  <section id="history" class="section bg-secondary">
+    <div class="container">
+      <h2 class="text-center">역사</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/dock.jpg" alt="독일 역사 1" class="img-fluid">
+            <p>독일제국입니다. 호엔촐레른 가문이 설립했습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/nua.jpg" alt="독일 역사 2" class="img-fluid">
+            <p>아돌프 히틀러가 독일에 파시즘을 전파하면서 나치독일이 됐습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/germany flag.jpg" alt="독일 역사 3" class="img-fluid">
+            <p>1990년 10월 3일 통일했습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 역사 1 -->
+  <div class="modal fade" id="historyModal1" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel1">역사 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/dock.jpg" alt="독일 역사 1" class="img-fluid">
+          <p>호엔촐레른 가문이 세웠으며 첫황제는 빌헬름1세입니다.  킬군항의 반란으로 시작됀 11월독일 혁명으로 인해 멸망했습니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 2 -->
+  <div class="modal fade" id="historyModal2" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel2">역사 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+			<img src="images/nua.jpg" alt="독일 역사 2" class="img-fluid">
+          <p>아돌프 히틀러는 미술대에 떨어지고 콧수염을 기르면서 정치인으로 뛰어들었습니다.아돌프 히틀러는 압도적인 연설로 사람들을 파시즘에 빠지게하며 나치독일을 세웠으나 결국엔 벙커에서 자살하고 나치독일도 망했습니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 3 -->
+  <div class="modal fade" id="historyModal3" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel3">역사 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/germany flag.jpg" alt="독일 역사3" class="img-fluid">
+          <p>1950년 소련과 미국으로 인해 동과 서로 나눠진 독일은 동이 베를린 장벽을 세웠다 1970년 무너지고 1990년 10월 3일 통일하고 현재 독일이됐습니다..</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 관광지 섹션 -->
+  <section id="attractions" class="section bg-success">
+    <div class="container">
+      <h2 class="text-center">관광지</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/mackju.jpg" alt="독일 관광지 1" class="img-fluid">
+            <p>옥토버페스트 축제입니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/door.jpg" alt="독일 관광지 2" class="img-fluid">
+            <p>브란덴부르크 문입니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/tv.jpg" alt="독일 관광지 3" class="img-fluid">
+            <p>베를린 tv 타워입니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 관광지 1 -->
+  <div class="modal fade" id="attractionModal1" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel1">관광지 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/mackju.jpg" alt="독일 관광지 1" class="img-fluid">
+          <p>뮌헨의 축제이자 세계3대축제중 하나인 옥토버페스트 축제입니다 고대 루트비히 1세와 테레제 공주의 결혼을 축하하기위한게 기원이였으며 현재는 9월말부터 10월초까지 진행돼며 오전 8시부터 오후 11시 반까지 진행됍니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 2 -->
+  <div class="modal fade" id="attractionModal2" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel2">관광지 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/door.jpg" alt="일본 관광지 2" class="img-fluid">
+          <p>브란덴부르크 문은 독일 베를린에 위치한 유적이자 역사적인 건물로 현재는 유럽의 평화와 경제를 상징하는 건물입니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 3 -->
+  <div class="modal fade" id="attractionModal3" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel3">관광지 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/tv.jpg" alt="독일 관광지 3" class="img-fluid">
+          <p>1969년 동독이 서독보고 놀라라고 지었습니다. 현재는 제일 높은 구조물이자 방송 송신탑으로 쓰이고있습니다. 햇빛이 비추면은 둥근 스테인리스 돔에 십자가 모양의 빛이 생기는 걸 보고 교황의 복수라고도 불립니다.</p>
+        </div
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="m.odal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 여행 팁 섹션 -->
+  <section id="tips" class="section bg-info">
+    <div class="container">
+      <h2 class="text-center">여행 팁</h2>
+      <ul>
+        <li>방문하기 좋은 시기: 봄 (3월~5월)과 가을 (9월~11월).</li>
+        <li>언어: 독일어 주요도시에는 영어도 사용하나 왠만해선 독일어를 사용하기에 독일어를 배워갑시다.</li>
+        <li>통화: 독일 유로 (eur).</li>
+        <li>교통: 독일은 교통에 신경을 많이쓰는편이고 독일패스를 쓰면 저렴하게 교통수단을 이용할수있습니다.</li>
+      </ul>
+      <div class="text-center">
+        <!-- 여기에 YouTube 동영상 링크를 추가하세요 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJqD0uE01MM?si=Eybq8eUc6OmxkU0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <p>&copy; 2024 일본 여행 가이드. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
